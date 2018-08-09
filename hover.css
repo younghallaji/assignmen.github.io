@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.dropdown {
+    position:absolute;
+    display: inline-block;
+	top: 80px;
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #09f;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+	color:#03f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.button{
+	padding:10px;
+	background-color:#ddd;
+	color:#09f;
+	font-size:14px;
+	font-family:cambria;
+	width: 150px
+}

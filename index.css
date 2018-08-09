@@ -1,0 +1,447 @@
+/* CSS Document */
+body{
+	padding:0px;
+	margin:auto;
+	}
+.container{
+	width:100%;
+	height:470px;
+	background-image:url(image/bg.png);
+	background-repeat:repeat;
+	position:absolute;
+	top:190px;
+	}
+.footer{
+	bottom:3px
+	}
+.dropbtn {
+    background-color: #03f;
+	font-family:cambria;
+    border: none;
+    cursor:ne-resize;
+	padding: 10px 10px;
+  	font-size: 20px;
+  	text-align: center;
+  	color: #fff;
+   	border-radius: 10px;
+  	box-shadow: 0 6px #999;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color:#009;
+	opacity:0.6;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+	left:1300px;
+	top: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: 03f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+/*calender*/
+.calendar{
+	position:absolute;
+	top: 80px;
+	left: 30px;
+	background-color:#FFFFFF;
+	width: 240px;
+	height: 250px;
+	}
+.time{
+	position:absolute;
+	width:200px;
+	height:10px;
+	background-color:#09d;
+	font-family:cambria;
+	top:20px;
+	left:32px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color:#FFf;
+	font-size:16px;
+	padding:20px;
+	font-weight:bolder;
+	text-align:center;
+	}
+	/* slider start*/
+.slider{
+	top:20px;
+	left:300px;
+	position:absolute;
+	display:block;
+	
+}
+
+.mySlides {display:block;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  max-height:100px;
+  position:block;
+  margin: auto;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: shuffle;
+  -webkit-animation-duration: 1.5s;
+  animation-name: shuffle;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*slider end*/
+.stdmenu{
+	position:absolute;
+	top: 240px;
+	left: 40px;
+	width: 220px;
+	height: 250px;
+	padding-left: 20px;
+	padding-top:6px;
+    border-top: none;
+	background-image:url(image/bg.png);
+	}
+	.list{
+	border:1px solid #03F;
+	width: 900px;
+	height:380px;
+	border-radius:10px;
+	position:absolute;
+	top:20px;
+	left:400px;
+	padding: 20px;
+}
+.image{
+	width:150px;
+	height: 150px;
+	background-color:#CCCCCC;
+	position:absolute;
+	left:30px;
+	top: 70px;
+	}
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: black;
+	color:white
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: white;
+	color:black;
+}
+.menubutton{
+	padding: 4px;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	background-color:#09F;
+	width: 150px;
+	border-color:#03f;
+	}
+.menubutton:hover{
+	background-color:#03F;
+	color:#fff;
+	opacity: 0.2px
+	}
+.menuactive{
+	padding: 4px;
+	color:#0F0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	background-color:#09f;
+	width: 150px;
+	border-color:#03f;
+}
+}.matric{
+	position:absolute;
+	right:50px;
+	top:20px;
+	background-color:#0033CC;
+	color:#CCCCCC;
+	font-family:cambria;
+	font-size:14px;
+	}
+.profile{
+	padding-left:20px;
+	padding-right:20px;
+	top:20px;
+	left:500px;
+	position:absolute;
+	background-color:#0099ff;
+	border-radius: 20px;
+	color:#fff;
+	font-family:cambria;
+	font-size:16px;
+	background-repeat:no-repeat;
+	overflow:visible;
+	width:500px;
+	height:400px;
+	}
+.assignment{
+	position:absolute;
+	right:30%;
+	top:70px;
+	width:500px;
+	height:300px;
+	background-color:#fff;
+	padding:20px;
+	border:1px solid #03F;
+	text-align:center;
+	font-family:cambria;
+	color:#03F;
+	}
+input,select{
+    width: 330px;
+    height: 30px;
+    color: #03F;
+    background-color:fff;
+    font-family: new time roman;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color:#03F;
+	padding:10px;
+}
+.login{
+	width: 330px;
+    height: 50px;
+    color: green;
+    background-color:whitesmoke;
+    font-family: new time roman;
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: blue;
+}
+	}
+textarea{
+    color: green;
+    background-color:whitesmoke;
+    font-family: new time roman;
+    font-size: 15px;
+    border-color: blue;
+	padding-left: 10px;
+	padding-top: 10px;
+	}
+.submit1{
+    width: 170px;
+    height:30;
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-family: elephant;
+    border-radius: 10px;
+    font-size: 16px;
+	}
+@keyframes blink{
+    to{
+        color: red;
+    }
+}
+.pblink{
+    animation: blink 1s steps(2, start) infinite;
+	color:#00FF00;
+    font-size: 24px;
+    font-family: cambria;
+    font-weight: bolder;
+	top:20px;
+	left:650px;
+	position:absolute;
+}
+.inbox{
+	width: 600px;
+	height: 400px;
+	right:40%;
+	top:20px;
+	background-color:#D7D7D7;
+	border-radius: 20px;
+	border-style:groove;
+	position:absolute;
+	padding:10px;
+	}
+.inboxdiv{
+	border:1px solid #333333;
+	width:500px;
+	height:30px;
+	border-style:dashed;
+	}
+.subassignment{
+	padding-left:10px;
+	border:1px solid #03f;
+	padding-right:10px;
+	padding-bottom:5px;
+	padding-top:7px;
+	top:20px;
+	text-align:center;
+	left:400px;
+	position:absolute;
+	background-color:#fff;
+	border-radius: 3px;
+	color:#03f;
+	font-family:cambria;
+	font-size:16px;
+	overflow:scroll;
+	width:900px;
+	height:420px;
+	}
+.dash{
+	font-family:cambria;
+	font-size:24px;
+	color:#33C;
+	text-align:center;
+}
+.stdnum{
+	width:400px;
+	height:130px;
+	background-color:#33c;
+	border-radius:10px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	color:#fff;
+	
+}
+
+.lecnum{
+	width:400px;
+	height:130px;
+	background-color:#09F;
+	left:500px;
+	top:67px;
+	border-radius:10px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:center;
+	font-size:24px;
+	color:#fff;
+	position:absolute
+	
+}
+
+.button1{
+	width:400px;
+	height:30px;
+	text-align:right;
+	background-color:#FFF;
+	color:#F00;
+	border-radius:10px;
+}
+.coursenum{
+	width:400px;
+	height:130px;
+	background-color:#09f;
+	left:500px;
+	top:250px;
+	border-radius:10px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	color:#fff;
+	position:absolute
+	
+}
+.assnum{
+	width:400px;
+	height:130px;
+	background-color:#009;
+	top:250px;
+	border-radius:10px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	color:#fff;
+	position:absolute
+	
+}
+.list2{
+	border:3px solid #03F;
+	width: 500px;
+	height:250px;
+	border-radius:10px;
+	position:absolute;
+	top:60px;
+	left:500px;
+	padding: 20px;
+	text-align:center;
+	vertical-align:middle;
+}
+.table{
+	border-collapse:collapse;
+	width:880px;
+	background-color:#CCC;
+	border-color:#00F;
+	color:#06C;
+	text-align:center;
+}
+.listp{
+	border:1px solid #03F;
+	width: 700px;
+	height:380px;
+	border-radius:10px;
+	position:absolute;
+	top:20px;
+	left:400px;
+	padding: 20px;
+	vertical-align:middle;
+}
+.inputtext{
+	width:300px;
+	height:40px;
+	padding: 10px;
+	border: 1px solid #03f;
+	color: #09f;
+	background-color:#fff;
+	font-size:14px;
+}
